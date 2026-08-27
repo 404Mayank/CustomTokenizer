@@ -1,0 +1,10 @@
+[project]
+name = "custom-tokenizer"
+version = "0.1.0"
+description = "Learning and laying out tokenizer logic from scratch"
+requires-python = ">=3.13"
+
+[project.optional-dependencies]
+datasets = [
+    "kagglehub>=1.0.2",
+]
